@@ -1,0 +1,10 @@
+services:
+  tomcat:
+    container_name: tom
+    image: img:v1
+    ports:
+      - "8080:8080"
+  building-image:
+    build: ./
+    image: img:v1
+
