@@ -211,7 +211,7 @@
 	<distributionManagement>
     <repository>
         <id>nexus-releases</id>
-        <url>YOUR-ACTUAL-NEXUS-MAVEN-HOSTED-URL</url>
+        <url>http://13.63.69.7:8081/repository/maven-releases</url>
     </repository>
 </distributionManagement>
 </project>
