@@ -208,4 +208,10 @@
 		
         </plugins>
     </build>
+	<distributionManagement>
+    <repository>
+        <id>nexus-releases</id>
+        <url>YOUR-ACTUAL-NEXUS-MAVEN-HOSTED-URL</url>
+    </repository>
+</distributionManagement>
 </project>
